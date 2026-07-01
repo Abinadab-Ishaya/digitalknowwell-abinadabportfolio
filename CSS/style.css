@@ -152,8 +152,10 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 article#main-col{
     float: left;
     width: 65%;
-    padding-bottom: 100%;
 } 
+#main{
+    padding-bottom: 100%;
+}
 
 /* Services */
 ul#services li{
