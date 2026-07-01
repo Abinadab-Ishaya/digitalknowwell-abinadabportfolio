@@ -14,8 +14,8 @@ header{
 
 /* introduction */
 .imgwrapper{
-    width: 100%;
     max-width: 100px;
+    min-width: 30px;
     object-fit: cover;
     vertical-align: auto;
 }
@@ -66,6 +66,8 @@ body{
     border-radius: 15px;
     justify-content: space-around;
     object-fit: cover;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
 }
 
 a {
@@ -101,6 +103,7 @@ a {
     justify-content: space-around;
     gap: 10rem;
     width: auto;
+    padding-bottom: 100%;
 }
 
 footer{
